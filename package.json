@@ -1,0 +1,32 @@
+{
+  "name": "RN_Tensorflow",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.0.2",
+    "jpeg-js": "^0.3.4",
+    "react": "16.8.3",
+    "react-native": "0.59.2",
+    "react-native-svg": "^9.3.6",
+    "react-native-svg-charts": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/runtime": "^7.4.2",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.3",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3",
+    "util": "^0.11.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
